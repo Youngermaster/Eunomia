@@ -1,3 +1,7 @@
+# My own config
+build
+
+# C++ .gitignore
 # Prerequisites
 *.d
 
