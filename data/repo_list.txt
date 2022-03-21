@@ -1,2 +1,2 @@
-git@github.com:Youngermaster/Hacking-Startup.git
-git@github.com:Youngermaster/ST0255-Telematics.git
+git@github.com:Youngermaster/Ubuntu-dotfiles.git
+git@github.com:Youngermaster/Anthropometric-Evaluator.git
