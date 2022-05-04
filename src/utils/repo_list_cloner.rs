@@ -20,7 +20,9 @@ pub fn clone_repo(url: String, location_path: &String) {
         .arg(&url)
         .current_dir(location_path)
         .spawn()
-        .expect("failed to execute process");
+        .expect("failed to execute process")
+        .wait() // We add the wait so the program can download one by one.
+        .expect("failed to wait for process");
 }
 
 // The output is wrapped in a Result to allow matching on errors
